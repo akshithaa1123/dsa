@@ -37,7 +37,7 @@ class Stack:
             while(temp!=None):
                 print(temp.data,end=" ")
                 temp=temp.next
-                print()
+            print()
 
 if __name__=="__main__":
     stk=Stack
